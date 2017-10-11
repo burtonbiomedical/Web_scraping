@@ -1,0 +1,192 @@
+a {
+	text-decoration: none;
+}
+a[href^='/']::after {
+	content: " (https://www.gov.uk" attr(href) ")";
+}
+h1 {
+	font-weight: bold;
+}
+h2 {
+	font-weight: bold;
+}
+h3 {
+	font-weight: bold;
+}
+h4 {
+	font-weight: bold;
+}
+h5 {
+	font-weight: bold;
+}
+h6 {
+	font-weight: bold;
+}
+h2 {
+	orphans: 3; widows: 3;
+}
+h3 {
+	orphans: 3; widows: 3;
+}
+h4 {
+	orphans: 3; widows: 3;
+}
+p {
+	orphans: 3; widows: 3;
+}
+ul {
+	orphans: 3; widows: 3;
+}
+h2 {
+	page-break-after: avoid;
+}
+h3 {
+	page-break-after: avoid;
+}
+h4 {
+	page-break-after: avoid;
+}
+h2 {
+	text-transform: none; line-height: 1.3157; padding-top: 7pt; font-family: sans-serif; font-size: 14pt; font-weight: 700;
+}
+h3 {
+	text-transform: none; line-height: 1.25; font-family: sans-serif; font-size: 12pt; font-weight: 700;
+}
+h4 {
+	text-transform: none; line-height: 1.4285; font-family: sans-serif; font-size: 11pt; font-weight: 700;
+}
+p {
+	text-transform: none; line-height: 1.4285; font-family: sans-serif; font-size: 11pt; font-weight: 400;
+}
+ul {
+	text-transform: none; line-height: 1.4285; padding-left: 26pt; font-family: sans-serif; font-size: 11pt; font-weight: 400;
+}
+ol {
+	text-transform: none; line-height: 1.4285; padding-left: 26pt; font-family: sans-serif; font-size: 11pt; font-weight: 400;
+}
+ul {
+	
+}
+ol {
+	list-style: decimal;
+}
+li {
+	line-height: 1.5;
+}
+li p {
+	margin: 0px;
+}
+figure {
+	margin: 15px 0px;
+}
+table {
+	margin: 15px 0px; width: 100%; border-collapse: collapse;
+}
+table th {
+	padding: 10px; border: 1pt solid rgb(191, 193, 195); border-image: none; text-align: left;
+}
+table td {
+	padding: 10px; border: 1pt solid rgb(191, 193, 195); border-image: none; text-align: left;
+}
+table caption {
+	margin: 15px 0px; text-transform: none; line-height: 1.3157; font-family: sans-serif; font-size: 14pt; font-weight: 400;
+}
+.dont-print {
+	display: none;
+}
+#global-header #search {
+	display: none;
+}
+#global-header .search-toggle {
+	display: none;
+}
+#global-header .header-proposition {
+	display: none;
+}
+#global-breadcrumb {
+	display: none;
+}
+#global-browser-prompt {
+	display: none;
+}
+#user-satisfaction-survey {
+	display: none;
+}
+.print-link {
+	display: none;
+}
+.report-a-problem-toggle {
+	display: none;
+}
+.report-a-problem-container {
+	display: none;
+}
+.govuk-govspeak .media-player {
+	display: none;
+}
+.govuk-govspeak .info-notice {
+	margin: 15px 0px; padding: 0px 15px; border: 1pt solid rgb(191, 193, 195); border-image: none;
+}
+.govuk-govspeak .help-notice {
+	margin: 15px 0px; padding: 0px 15px; border: 1pt solid rgb(191, 193, 195); border-image: none;
+}
+.govuk-govspeak .call-to-action {
+	margin: 15px 0px; padding: 0px 15px; border: 1pt solid rgb(191, 193, 195); border-image: none;
+}
+.govuk-govspeak .help-notice p {
+	font-weight: 700;
+}
+.govuk-govspeak .fraction img {
+	margin-bottom: -7px; display: inline-block;
+}
+.govuk-govspeak .attachment {
+	margin: 30px 0px;
+}
+.govuk-govspeak :first-child.attachment {
+	margin-top: 0px;
+}
+.govuk-govspeak .attachment .attachment-thumb {
+	display: none;
+}
+.govuk-govspeak .attachment .attachment-details .download {
+	display: block;
+}
+.govuk-govspeak .attachment .accessibility-warning h2 {
+	text-transform: none; line-height: 1.4285; font-family: sans-serif; font-size: 11pt; font-weight: 400;
+}
+.govuk-govspeak .attachment .accessibility-warning .toggler {
+	display: none;
+}
+.govuk-govspeak .footnotes {
+	border-top-color: rgb(11, 12, 12); border-top-width: 1px; border-top-style: solid;
+}
+.govuk-govspeak .legislative-list {
+	padding-left: 0px;
+}
+.govuk-govspeak .legislative-list {
+	list-style: none;
+}
+.govuk-govspeak .legislative-list ol {
+	list-style: none;
+}
+.govuk-govspeak-html-publication .govuk-sticky-element {
+	display: none;
+}
+.govuk-metadata dt {
+	clear: both; font-weight: bold; float: left; min-width: 120px;
+}
+.govuk-metadata dd {
+	margin-left: 120px;
+}
+.govuk-metadata dd p {
+	margin: 0px; padding: 0px;
+}
+.govuk-related-items ul a {
+	orphans: 2;
+}
+.pub-c-title__context {
+	margin: 0px;
+}
+.pub-c-title__text {
+	margin-top: 0px;
+}

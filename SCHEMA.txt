@@ -1,0 +1,10 @@
+CREATE TABLE sendaways(specimen_number text primary key, user text, date datetime, surname text, forename text,
+isolate_test text, date_rpt datetime, date_sent datetime, date_winpath datetime, notes text, ref_lab_code text,
+foreign key (ref_lab_code) references ref_labs(ref_lab), foreign key (isolate_test) references isolate_ref(isolate_test);
+
+CREATE TABLE ref_lab(ref_lab_code text primary key, ref_lab_name text, dx_number text, form_loc text, label_loc text);
+
+CREATE TABLE isolate_ref(isolate_test text primary key, ref_lab_code text, foreign key(ref_lab_code) references ref_lab(ref_lab_code));
+
+
+

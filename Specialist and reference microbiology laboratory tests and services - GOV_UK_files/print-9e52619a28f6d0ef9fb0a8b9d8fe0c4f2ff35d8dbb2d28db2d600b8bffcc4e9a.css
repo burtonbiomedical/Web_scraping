@@ -1,0 +1,39 @@
+.app-c-contents-list__list-item--numbered .app-c-contents-list__link {
+	display: table;
+}
+.app-c-contents-list__number {
+	display: table-cell;
+}
+.app-c-contents-list__numbered-text {
+	display: table-cell;
+}
+.app-c-contents-list__number {
+	min-width: 1.5em;
+}
+.app-c-contents-list__numbered-text {
+	padding-left: 0.3em;
+}
+.direction-rtl .app-c-contents-list__numbered-text {
+	padding-right: 0.3em; padding-left: 0px;
+}
+.app-c-contents-list__list {
+	padding-left: 0px; margin-left: 0px;
+}
+.app-c-contents-list__nested-list {
+	padding-left: 0px; margin-left: 0px;
+}
+.app-c-contents-list__list-item--dashed {
+	margin-left: 15px; list-style-type: disc;
+}
+.app-c-contents-list__list-item--numbered {
+	list-style-type: none;
+}
+.app-c-contents-list__list-item--parent {
+	list-style-type: none;
+}
+.html-publication .print-wrapper .print-meta-data {
+	display: block; page-break-before: always; page-break-after: always;
+}
+.html-publication .print-wrapper .print-meta-data .print-meta-data-licence {
+	width: 78px; height: auto; margin-top: 60px; margin-bottom: 40px;
+}
